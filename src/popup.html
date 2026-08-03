@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TikTok Repost Remover</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <main>
+      <header><span class="mark" aria-hidden="true">↻</span><div><h1>Repost Remover</h1><p id="status">Ready to scan</p></div></header>
+      <section class="stats" aria-label="Repost totals">
+        <div><strong id="collected">0</strong><span>Collected</span></div>
+        <div><strong id="selected">0</strong><span>Selected</span></div>
+        <div><strong id="removed">0</strong><span>Removed</span></div>
+        <div><strong id="failed">0</strong><span>Failed</span></div>
+        <div><strong id="remaining">0</strong><span>Remaining</span></div>
+      </section>
+      <section class="timing" aria-label="Scan details">
+        <div><span>Pages</span><strong id="pages">0</strong></div>
+        <div><span>Page size</span><strong id="page-size">—</strong></div>
+        <div><span>Elapsed</span><strong id="elapsed">0s</strong></div>
+      </section>
+      <p id="estimate" class="note">Scan not started</p>
+      <p id="error" class="error" hidden></p>
+      <div class="actions">
+        <button id="scan" type="button">Scan Reposts</button>
+        <button id="stop-scan" class="secondary" type="button" disabled>Stop Scan</button>
+        <button id="review" class="secondary wide" type="button" disabled>Open Review Page</button>
+      </div>
+      <p class="note">Pacing reduces request bursts but cannot guarantee account safety.</p>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>

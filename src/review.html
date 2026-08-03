@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Review TikTok Reposts</title>
+    <link rel="stylesheet" href="review.css">
+  </head>
+  <body>
+    <main>
+      <header><div><h1>Review reposts</h1><p id="status">Loading…</p></div><button id="delete" class="danger" type="button">Delete Selected Reposts</button></header>
+      <section class="stats" aria-label="Deletion totals">
+        <div><strong id="collected">0</strong><span>Collected</span></div><div><strong id="selected">0</strong><span>Selected</span></div>
+        <div><strong id="removed">0</strong><span>Removed</span></div><div><strong id="failed">0</strong><span>Failed</span></div>
+        <div><strong id="remaining">0</strong><span>Remaining</span></div><div><strong id="elapsed">0s</strong><span>Elapsed</span></div>
+        <div><strong id="eta">—</strong><span>ETA</span></div>
+      </section>
+      <section class="toolbar" aria-label="Review controls">
+        <input id="search" type="search" placeholder="Search creator, caption, or video ID" aria-label="Search reposts">
+        <button id="all" type="button">Select All</button><button id="none" type="button">Select None</button><button id="invert" type="button">Invert</button>
+        <button id="pause" type="button">Pause</button><button id="resume" type="button">Resume</button><button id="stop" type="button">Stop</button>
+        <button id="retry" type="button">Retry Remaining</button><button id="json" type="button">Export JSON</button><button id="csv" type="button">Export CSV</button>
+      </section>
+      <p id="error" class="error" hidden></p>
+      <section id="items" class="grid" aria-live="polite"></section>
+      <nav class="pager" aria-label="Repost pages"><button id="previous" type="button">Previous</button><span id="page">Page 1</span><button id="next" type="button">Next</button></nav>
+      <p class="safety">Only checked items are deleted. Random pacing reduces bursts but cannot guarantee protection from TikTok restrictions.</p>
+    </main>
+    <script src="review.js"></script>
+  </body>
+</html>
