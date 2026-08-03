@@ -7,7 +7,7 @@
 <p align="center">Scan, review, and selectively remove reposts from your TikTok account.</p>
 
 <p align="center">
-  <a href="https://github.com/yiitxyz/tiktok-repost-remover/actions/workflows/ci.yml"><img src="https://github.com/yiitxyz/tiktok-repost-remover/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
+  <a href="https://github.com/yiitxyz/tiktokRepostRemover/actions/workflows/ci.yml"><img src="https://github.com/yiitxyz/tiktokRepostRemover/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-25f4ee.svg" alt="MIT License"></a>
   <img src="https://img.shields.io/badge/Manifest-V3-fe2c55.svg" alt="Manifest V3">
   <a href="https://github.com/yiitxyz"><img src="https://img.shields.io/github/followers/yiitxyz?style=social" alt="Follow yiitxyz on GitHub"></a>
@@ -37,7 +37,7 @@ This project is not affiliated with, endorsed by, or sponsored by TikTok or Byte
 
 ### From a release
 
-1. Download `tiktok-repost-remover-v*.zip` from the [latest release](https://github.com/yiitxyz/tiktok-repost-remover/releases/latest).
+1. Download `tiktok-repost-remover-v*.zip` from the [latest release](https://github.com/yiitxyz/tiktokRepostRemover/releases/latest).
 2. Extract the archive.
 3. Open `brave://extensions` in Brave or `chrome://extensions` in Chrome.
 4. Enable **Developer mode**.
@@ -138,7 +138,7 @@ npm test
 
 Tests inspect the compiled extension, so build before testing. The unpacked artifact is `dist`.
 
-Contributions are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md), report ordinary bugs through [GitHub Issues](https://github.com/yiitxyz/tiktok-repost-remover/issues), and report vulnerabilities privately as described in [SECURITY.md](SECURITY.md).
+Contributions are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md), report ordinary bugs through [GitHub Issues](https://github.com/yiitxyz/tiktokRepostRemover/issues), and report vulnerabilities privately as described in [SECURITY.md](SECURITY.md).
 
 ## Troubleshooting
 

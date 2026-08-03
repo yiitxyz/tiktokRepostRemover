@@ -8,7 +8,7 @@ test('built manifest stays MV3 and narrowly scoped to TikTok', async () => {
   assert.deepEqual(manifest.permissions, ['storage', 'scripting']);
   assert.deepEqual(manifest.host_permissions, ['https://www.tiktok.com/*']);
   assert.deepEqual(manifest.content_scripts[0].matches, ['https://www.tiktok.com/*']);
-  assert.equal(manifest.homepage_url, 'https://github.com/yiitxyz/tiktok-repost-remover');
+  assert.equal(manifest.homepage_url, 'https://github.com/yiitxyz/tiktokRepostRemover');
   assert.equal(manifest.icons['128'], 'icons/icon-128.png');
 });
 

@@ -10,10 +10,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yiitxyz/tiktok-repost-remover.git"
+    "url": "git+https://github.com/yiitxyz/tiktokRepostRemover.git"
   },
-  "homepage": "https://github.com/yiitxyz/tiktok-repost-remover#readme",
-  "bugs": "https://github.com/yiitxyz/tiktok-repost-remover/issues",
+  "homepage": "https://github.com/yiitxyz/tiktokRepostRemover#readme",
+  "bugs": "https://github.com/yiitxyz/tiktokRepostRemover/issues",
   "keywords": ["brave", "chrome-extension", "manifest-v3", "tiktok", "typescript"],
   "type": "module",
   "scripts": {

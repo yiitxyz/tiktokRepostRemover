@@ -16,4 +16,4 @@ Remove the extension from Brave or Chrome to delete its browser-managed local da
 
 ## Contact
 
-Report privacy concerns through [GitHub Issues](https://github.com/yiitxyz/tiktok-repost-remover/issues) without including cookies, account identifiers, or other session data.
+Report privacy concerns through [GitHub Issues](https://github.com/yiitxyz/tiktokRepostRemover/issues) without including cookies, account identifiers, or other session data.
