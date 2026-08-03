@@ -7,7 +7,6 @@
 <p align="center">Scan, review, and selectively remove reposts from your TikTok account.</p>
 
 <p align="center">
-  <a href="https://github.com/yiitxyz/tiktokRepostRemover/actions/workflows/ci.yml"><img src="https://github.com/yiitxyz/tiktokRepostRemover/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-25f4ee.svg" alt="MIT License"></a>
   <img src="https://img.shields.io/badge/Manifest-V3-fe2c55.svg" alt="Manifest V3">
   <a href="https://github.com/yiitxyz"><img src="https://img.shields.io/github/followers/yiitxyz?style=social" alt="Follow yiitxyz on GitHub"></a>
